@@ -14,6 +14,8 @@ prediction = X*w;
 plot(x,prediction)
 hold off;
 
+d= 10;
+
 
 x = [0:0.5:10]';
 y = 0.03 * x.^3 - 0.4 * x.^2 + x + 0.2 ;
