@@ -26,9 +26,14 @@ prediction = X*w;
 plot(x_new,prediction)  %plot new curve
 hold off;
 
+<<<<<<< HEAD
 % Calculate sample points
 a = 3.25;
 y_325 = w(4) * a.^3 + w(3) * a.^2 + w(2)*a + w(1)
+=======
+d= 10;
+
+>>>>>>> origin/master
 
 a = 9.75;
 y_975 = w(4) * a.^3 + w(3) * a.^2 + w(2)*a + w(1)
